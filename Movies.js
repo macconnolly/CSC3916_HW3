@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var Review = require('./Reviews');
 var client = { MongoClient } = require('mongodb');
 
 

@@ -4,7 +4,7 @@ const passport = require('passport');
 const authJwtController = require('./auth_jwt');
 const User = require('./Users');
 const Movie = require('./Movies');
-const Review = require('./Reviews');
+
 const jwt = require('jsonwebtoken');
 const crypto = require("crypto");
 const rp = require('request-promise');
